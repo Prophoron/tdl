@@ -1,6 +1,8 @@
 module github.com/iyear/tdl
 
-go 1.21
+go 1.23.0
+
+toolchain go1.23.7
 
 replace (
 	github.com/iyear/tdl/core => ./core
@@ -47,7 +49,7 @@ require (
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.33.0
-	golang.org/x/time v0.7.0
+	golang.org/x/time v0.11.0
 )
 
 require (
